@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+
+  "scripts": {
+    "start":"parcel ndex.html"
+  }
+
+}
