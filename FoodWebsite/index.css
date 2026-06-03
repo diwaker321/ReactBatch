@@ -1,0 +1,60 @@
+.navitems ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+}
+.navitems ul li{
+    cursor: pointer;
+}
+
+.leftpart img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.leftpart{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+.foodContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.MainFoodCard{
+    padding: 10px;
+    background-color: #f4f4f4;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+}
+
+.imagecard img {
+    width: 260px;
+    /* border-radius: 15px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.category{
+    list-style-type: none;
+    /* display: flex; */
+
+}
+
+.category li {
+    cursor: pointer;
+}
+
+.categorySection{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
