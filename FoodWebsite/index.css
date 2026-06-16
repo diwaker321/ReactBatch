@@ -25,9 +25,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    border: 1px solid black;
     padding: 10px;
 }
+
 
 .MainFoodCard{
     padding: 10px;
@@ -57,4 +57,40 @@
     display: flex;
     flex-wrap: wrap;
     
+}
+
+
+
+.food-card {
+    flex-direction: column;
+  border-radius: 16px;          
+  width: 288px;                 
+  padding: 8px;                 
+  display: flex;                       
+  align-items: center;          
+  background-color: #f3f4f6;
+  cursor: pointer;              
+  transition: all 150ms linear; 
+
+}
+
+.food-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -2px rgba(0, 0, 0, 0.1); 
+}
+
+.food-image {
+  width: 160px;       
+  border-radius: 16px; 
+}
+
+.food-name {
+  text-align: center;      
+  font-size: 16px;        
+  font-weight: 700;       
+  width: 100%;             
+  padding: 8px;            
+  overflow: hidden;        
+  text-overflow: ellipsis; 
+  white-space: nowrap;     
 }
